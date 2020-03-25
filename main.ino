@@ -6,4 +6,5 @@ void setup() {
 
 void loop() {
     // TODO: rolling the program!
+    printf("123456789");
 }
