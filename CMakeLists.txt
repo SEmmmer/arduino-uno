@@ -7,7 +7,7 @@ project(${PROJECT_NAME})
 set(${CMAKE_PROJECT_NAME}_SKETCH main.ino)
 
 #### Uncomment below additional settings as needed.
-# set(${CMAKE_PROJECT_NAME}_BOARD uno)
-# set(${CMAKE_PROJECT_NAME}_PORT /dev/tty.usbserial-14130)
+ set(${CMAKE_PROJECT_NAME}_BOARD uno)
+ set(${CMAKE_PROJECT_NAME}_PORT /dev/tty.usbserial-14230)
 
 generate_arduino_firmware(${CMAKE_PROJECT_NAME})
