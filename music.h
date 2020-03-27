@@ -35,9 +35,9 @@
 
 void sayTone(int tones, int time) {
     tone(10, tones);
-    delay(time - 70);
+    delay(time - 30);
     noTone(10);
-    delay(70);
+    delay(30);
 }
 
 #endif //ARDUINO_HELLO_MUSIC_H

@@ -20,7 +20,7 @@ void playLoveRiver() {
 
     sayTone(midFa, oneLine);
     sayTone(midMi, oneLine);
-    delay(110);
+    delay(80);
 
     sayTone(midDo, oneLine);
     sayTone(midRe, oneLine);
